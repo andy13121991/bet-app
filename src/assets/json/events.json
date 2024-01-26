@@ -119,66 +119,6 @@
 
 },
 {
-    "id": 10002,
-    "date": "2023/08/23",
-    "time": "00:00",
-    "status": "game-finished",
-    "league": {
-
-        "id": 100,
-        "title": "NBA",
-        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
-
-    },
-    "country": {
-
-        "id": 1000,
-        "name": "USA",
-        "flag": "https://media-1.api-sports.io/flags/us.svg"
-
-    },
-    "teams": {
-    "home": {
-
-        "id": 17,
-        "name": "Memphis Grizzlies",
-        "group": "A",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png"
-
-    },
-    "away": {
-
-            "id": 28,
-            "name": "Sacramento Kings",
-            "group": "B",
-            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png"
-        }
-
-    },
-    "scores": {
-    "home": {
-
-        "quarter_1": 27,
-        "quarter_2": 23,
-        "quarter_3": 27,
-        "quarter_4": 25,
-        "over_time": null,
-        "total": 102
-
-    },
-    "away": {
-
-                "quarter_1": 19,
-                "quarter_2": 21,
-                "quarter_3": 20,
-                "quarter_4": 19,
-                "over_time": null,
-                "total": 79
-            }
-        }
-
-},
-{
     "id": 10003,
     "date": "2023/09/01",
     "time": "00:00",

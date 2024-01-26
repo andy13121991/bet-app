@@ -21,7 +21,7 @@ export class EventComponent implements OnInit {
   matches: Root2[] = [];
   dates: Root2[] = [];
 
-  private URL  = 'http://demo7719890.mockable.io/events';
+  private URL  = 'assets/json/events.json';
 
   constructor(private httpClient: HttpClient, private matDialog: MatDialog) {
   }
