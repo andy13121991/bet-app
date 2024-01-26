@@ -1,0 +1,15 @@
+<!-- Container for buttons -->
+<div class="buttons">
+
+  <!-- Button for placing a bet with accent color -->
+  <button id="bet1" class="bet-btn" mat-raised-button color="accent" (click)="openSnackBar()">Bet</button>
+
+  <!-- Button for placing a bet with custom background color -->
+  <button id="bet2" class="bet-btn" mat-raised-button style="background-color: #68d388;" matDialogClose="true">Bet</button>
+
+  <!-- Button for closing the dialog with a warning color -->
+  <button class="close-btn" mat-raised-button matDialogClose="true" color="warn">Close</button>
+</div>
+
+<!-- Container for displaying the next match button -->
+<div class="next-match"></div>

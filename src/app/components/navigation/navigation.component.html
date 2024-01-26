@@ -1,0 +1,27 @@
+<!-- Navigation bar wrapper -->
+<div id="navbar-animmenu" class="nav-wrapper">
+
+  <!-- Main navigation menu -->
+  <ul class="show-dropdown main-navbar">
+
+    <!-- Horizontal selector for active menu item -->
+    <div class="hori-selector">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+  <!-- Home menu item -->
+  <li id="nav-btn-wrapper" class="home-wrapper selected">
+  <a class="home-nav-btn nav-btn"
+    routerLink="/"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Home</a
+  ></li>
+
+  <!-- Teams menu item -->
+  <li id="nav-btn-wrapper" class="teams-wrapper">
+  <a class="teams-nav-btn nav-btn"
+    routerLinkActive="active" routerLink="/teams">Teams</a></li>
+  </ul>
+</div>

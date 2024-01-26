@@ -1,0 +1,20 @@
+/* Styling for the container of buttons with a background color */
+.buttons {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the bet buttons with margin */
+.bet-btn,
+.close-btn {
+  margin: 1em;
+}
+
+/* Styling for the container of the next match with a background color */
+.next-match {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+

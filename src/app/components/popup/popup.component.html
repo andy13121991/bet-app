@@ -1,0 +1,20 @@
+<!-- Wrapper for the popup dialog -->
+<div class="popup-wrapper">
+
+  <!-- Container for the popup title -->
+  <span class="popup-title-container" matSnackBarLabel>
+
+    <!-- Popup title -->
+    <h4 class="popup-title">This game is already finished ! Please click on button below with next match.</h4>
+  </span>
+
+  <!-- Container for the popup buttons -->
+  <span class="popup-btns" matSnackBarActions>
+
+    <!-- Close button for the popup -->
+    <button class="popup-close-btn" matSnackBarAction mat-raised-button color="warn"
+    (click)="snackBarRef.dismissWithAction()">Close</button>
+  </span>
+</div>
+
+

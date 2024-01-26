@@ -1,0 +1,29 @@
+<!-- Include the styles for this component -->
+<style src="./teams.component.css"></style>
+
+<!-- Container for the team data -->
+<div class="container-of-team">
+
+  <!-- Title wrapper for the team section -->
+  <div class="title-wrapper-of-team">
+    <h1 class="title-table"> Teams </h1>
+  </div>
+
+  <!-- Iterate over the teams using *ngFor directive -->
+  <ul class="table-data" *ngFor="let team of teams">
+
+    <!-- List item for each team -->
+    <li class="data-of-team">
+
+      <!-- Wrapper for the team name -->
+      <div class="para-wrapper">
+        <p class="title-of-team">{{ team.name }}</p>
+      </div>
+
+      <!-- Wrapper for the team logo -->
+      <div class="img-wrapper-of-team">
+        <img class="logo-of-team" [src]="team.logo">
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,45 @@
+<!-- Detail bar containing date, time, league, and country information -->
+<div class="detail-bar">
+  <div class="detail-wrapper">
+
+    <!-- Display current date and time -->
+    <h2 class="date-time-current">{{ date }}  {{ CurrentTime }}</h2>
+
+    <!-- Match league and country information wrapper -->
+    <div class="match-league-wrapper">
+
+      <!-- League information wrapper -->
+      <div class="league-wrapper">
+        <div class="league-title-wrapper">
+
+          <!-- Display league title -->
+          <h2 class="league-title"></h2>
+        </div>
+        <div class="league-img-wrapper">
+
+          <!-- Display league logo -->
+          <img src="" alt="" class="league-logo">
+        </div>
+      </div>
+
+      <!-- Country information wrapper -->
+      <div class="country-wrapper">
+        <div class="country-title-wrapper">
+
+          <!-- Display country title -->
+          <h2 class="country-title"></h2>
+        </div>
+        <div class="country-img-wrapper">
+
+          <!-- Display country flag -->
+          <img src="" alt="" class="country-flag">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Include child components for match details, scores, and buttons -->
+<app-match-details></app-match-details>
+<app-scores></app-scores>
+<app-buttons></app-buttons>

@@ -1,0 +1,419 @@
+[{
+    "id": 10000,
+    "date": "2023/08/23",
+    "time": "00:00",
+    "status": "game-finished",
+    "league": {
+
+        "id": 100,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 1000,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 6,
+        "name": "Chicago Bulls",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png"
+
+    },
+    "away": {
+
+            "id": 28,
+            "name": "Sacramento Kings",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": 27,
+        "quarter_2": 23,
+        "quarter_3": 27,
+        "quarter_4": 25,
+        "over_time": null,
+        "total": 102
+
+    },
+    "away": {
+
+                "quarter_1": 19,
+                "quarter_2": 21,
+                "quarter_3": 20,
+                "quarter_4": 19,
+                "over_time": null,
+                "total": 79
+            }
+        }
+
+},
+{
+    "id": 10001,
+    "date": "2023/08/23",
+    "time": "00:00",
+    "status":  "game-finished",
+    "league": {
+
+        "id": 100,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 1000,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 7,
+        "name": "Cleveland Cavaliers",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/06/Cavs_de_Cleveland_logo_2017.png/150px-Cavs_de_Cleveland_logo_2017.png"
+
+    },
+    "away": {
+
+            "id": 18,
+            "name": "Miami Heat",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": 18,
+        "quarter_2": 21,
+        "quarter_3": 21,
+        "quarter_4": 31,
+        "over_time": null,
+        "total": 91
+
+    },
+    "away": {
+
+                "quarter_1": 11,
+                "quarter_2": 25,
+                "quarter_3": 23,
+                "quarter_4": 27,
+                "over_time": null,
+                "total": 86
+            }
+        }
+
+},
+{
+    "id": 10002,
+    "date": "2023/08/23",
+    "time": "00:00",
+    "status": "game-finished",
+    "league": {
+
+        "id": 100,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 1000,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 17,
+        "name": "Memphis Grizzlies",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png"
+
+    },
+    "away": {
+
+            "id": 28,
+            "name": "Sacramento Kings",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Kings_de_Sacramento_logo.svg/1200px-Kings_de_Sacramento_logo.svg.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": 27,
+        "quarter_2": 23,
+        "quarter_3": 27,
+        "quarter_4": 25,
+        "over_time": null,
+        "total": 102
+
+    },
+    "away": {
+
+                "quarter_1": 19,
+                "quarter_2": 21,
+                "quarter_3": 20,
+                "quarter_4": 19,
+                "over_time": null,
+                "total": 79
+            }
+        }
+
+},
+{
+    "id": 10003,
+    "date": "2023/09/01",
+    "time": "00:00",
+    "status":  "game-finished",
+    "league": {
+
+        "id": 100,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 1000,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 169,
+        "name": "New York Knicks",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Knicks_de_NY.png"
+
+    },
+    "away": {
+
+            "id": 165,
+            "name": "LA Clippers",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/d/d6/Los_Angeles_Clippers_logo_2010.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": 18,
+        "quarter_2": 21,
+        "quarter_3": 21,
+        "quarter_4": 31,
+        "over_time": null,
+        "total": 91
+
+    },
+    "away": {
+
+                "quarter_1": 11,
+                "quarter_2": 25,
+                "quarter_3": 23,
+                "quarter_4": 27,
+                "over_time": null,
+                "total": 86
+            }
+        }
+
+},
+{
+    "id": 351538,
+    "date": "2023/09/01",
+    "time": "02:15",
+    "status":  "not-started",
+    "league": {
+
+        "id": 13,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 5,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 829,
+        "name": "New Orleans Pelicans",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/New_Orleans_Pelicans.png/200px-New_Orleans_Pelicans.png"
+    },
+    "away": {
+
+        "id": 819,
+        "name": "Philadelphia 76ers",
+        "group": "B",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": null,
+        "quarter_2": null,
+        "quarter_3": null,
+        "quarter_4": null,
+        "over_time": null,
+        "total": null
+
+    },
+    "away": {
+
+                "quarter_1": null,
+                "quarter_2": null,
+                "quarter_3": null,
+                "quarter_4": null,
+                "over_time": null,
+                "total": null
+            }
+        }
+
+},
+{
+    "id": 360593,
+    "date": "2023/09/15",
+    "time": "12:30",
+    "status":  "not-started",
+    "league": {
+
+        "id": 13,
+        "title": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 5,
+        "name": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 3996,
+        "name": "Toronto Raptors",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png"
+
+    },
+    "away": {
+
+            "id": 3993,
+            "name": "Washington Wizards",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/archive/d/d6/20161212034849%21Wizards2015.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": null,
+        "quarter_2": null,
+        "quarter_3": null,
+        "quarter_4": null,
+        "over_time": null,
+        "total": null
+
+    },
+    "away": {
+
+                        "quarter_1": null,
+                        "quarter_2": null,
+                        "quarter_3": null,
+                        "quarter_4": null,
+                        "over_time": null,
+                        "total": null
+                }
+              }
+
+},
+{
+    "id": 360594,
+    "date": "2023/09/15",
+    "time": "12:30",
+    "status":  "not-started",
+    "league": {
+
+        "id": 13,
+        "name": "NBA",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+
+    },
+    "country": {
+
+        "id": 5,
+        "title": "USA",
+        "flag": "https://media-1.api-sports.io/flags/us.svg"
+
+    },
+    "teams": {
+    "home": {
+
+        "id": 3996,
+        "name": "Los Angeles Lakers",
+        "group": "A",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png"
+
+    },
+    "away": {
+
+            "id": 3993,
+            "name": "Milwaukee Bucks",
+            "group": "B",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png"
+        }
+
+    },
+    "scores": {
+    "home": {
+
+        "quarter_1": null,
+        "quarter_2": null,
+        "quarter_3": null,
+        "quarter_4": null,
+        "over_time": null,
+        "total": null
+
+    },
+    "away": {
+
+                        "quarter_1": null,
+                        "quarter_2": null,
+                        "quarter_3": null,
+                        "quarter_4": null,
+                        "over_time": null,
+                        "total": null
+                }
+              }
+
+}]

@@ -1,0 +1,81 @@
+/* Styling for the title wrapper of the team section */
+.title-wrapper-of-team {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the title of the team section */
+.title-table {
+  font-size: 2em;
+}
+
+/* Resetting default styles for the list */
+.table-data {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Styling for each team data item */
+.data-of-team {
+  padding: 0.5em 0 0.5em 0;
+  height: 13.77vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+/* Hover effect for team data items */
+.data-of-team:hover {
+  background: linear-gradient(45deg, #f857a8, #ff5858);
+  border-bottom: none;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: .25s ease;
+  -webkit-transition: .25s ease;
+  -moz-transition: .25s ease;
+  -ms-transition: .25s ease;
+  -o-transition: .25s ease;
+}
+
+/* Styling for the paragraph wrapper */
+.para-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styling for the team name */
+.title-of-team {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* Styling for the image wrapper */
+.img-wrapper-of-team {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the team logo */
+.logo-of-team {
+  width: 15%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 650px) {
+  .data-of-team {
+    height: 4vh;
+  }
+  .title-of-team {
+    font-size: 1.2em;
+  }
+}

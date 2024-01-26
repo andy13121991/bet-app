@@ -1,0 +1,137 @@
+/* Styles for the scores section */
+.scores {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+/* Styles for the scores data table */
+table {
+  border-collapse: collapse;
+  width: 97%;
+  margin: 0 1em 0 1em;
+}
+
+/* Styles for table header and data cells */
+th, td {
+  text-align: center;
+  border-bottom: 1.5px solid whitesmoke;
+  width: 40%;
+  background-color: #ebeaea;
+  padding: 0.5em;
+}
+
+/* Adjustments for the first column of header and data cells */
+th:first-child, td:first-child {
+  width: 10%;
+}
+
+/* Styles for specific data cell with id "first-td-data" */
+#first-td-data {
+  border-left: 1.3px solid whitesmoke;
+  border-right: 1.3px solid whitesmoke;
+}
+
+/* Hover effect for table rows */
+.first:hover,
+.second:hover,
+.third:hover,
+.fourth:hover,
+.total:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+/* Styles for the total row with a background color */
+.total > td {
+  background-color: #ffd200 !important;
+}
+
+/* Styles for header cells */
+.head {
+  padding-top: 2.5em;
+}
+
+/* Styles for the first column header */
+.quartHead {
+  border-top-left-radius: 10px;
+  background: rgb(250,105,74);
+  background: -moz-linear-gradient(221deg, rgba(250,105,74,1) 50%, rgba(250,69,67,1) 100%);
+  background: -webkit-linear-gradient(221deg, rgba(250,105,74,1) 50%, rgba(250,69,67,1) 100%);
+  background: linear-gradient(221deg, rgba(250,105,74,1) 50%, rgba(250,69,67,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fa694a",endColorstr="#fa4543",GradientType=1);
+}
+
+/* Styles for the second column header */
+.homeHead {
+  border-left: 1.3px solid whitesmoke;
+  border-right: 1.3px solid whitesmoke;
+  background: rgb(242,238,94);
+  background: -moz-linear-gradient(221deg, rgba(242,238,94,1) 20%, rgba(250,97,73,1) 100%);
+  background: -webkit-linear-gradient(221deg, rgba(242,238,94,1) 20%, rgba(250,97,73,1) 100%);
+  background: linear-gradient(221deg, rgba(242,238,94,1) 20%, rgba(250,97,73,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2ee5e",endColorstr="#fa6149",GradientType=1);
+}
+
+/* Styles for the third column header */
+.awayHead {
+  border-top-right-radius: 10px;
+  background: rgb(85,185,10);
+  background: -moz-linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(242,238,94,1) 100%);
+  background: -webkit-linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(242,238,94,1) 100%);
+  background: linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(242,238,94,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#55b90a",endColorstr="#f2ee5e",GradientType=1);
+}
+
+/* Styles for the scores container */
+.scores-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the scores title wrapper */
+.scores-title-wrapper {
+  position: relative;
+  top: 2em;
+  left: 0.1em;
+  margin: 0.5em;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  background: rgb(85,185,10);
+  background: -moz-linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(252,240,69,0.8446778369550946) 50%, rgba(253,29,29,0.8138655120251226) 100%);
+  background: -webkit-linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(252,240,69,0.8446778369550946) 50%, rgba(253,29,29,0.8138655120251226) 100%);
+  background: linear-gradient(221deg, rgba(85,185,10,0.8278711142660189) 0%, rgba(252,240,69,0.8446778369550946) 50%, rgba(253,29,29,0.8138655120251226) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#55b90a",endColorstr="#fd1d1d",GradientType=1); ;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0.3em 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.374);
+}
+
+/* Styles for the scores title */
+.scores-title {
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 0;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .scores-title {
+    font-size: 1.1em;
+  }
+
+  table {
+    width: 93%;
+  }
+
+  .scores-title-wrapper {
+    width: 87%;
+  }
+}

@@ -1,0 +1,126 @@
+/* Styling for the main navigation bar */
+.main-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the animated menu bar */
+#navbar-animmenu {
+	background: #3F7CAC;
+	float: left;
+	overflow: hidden;
+	position: relative;
+  top: -14px;
+	padding: 10px 0px;
+  width: 100%;
+  margin-top: 0;
+}
+
+/* Styling for the list in the animated menu */
+#navbar-animmenu ul{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+/* Styling for list items in the animated menu */
+#navbar-animmenu li {
+	list-style-type: none;
+	float: left;
+}
+
+/* Styling for anchor tags in the animated menu */
+#navbar-animmenu ul li a{
+	color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 45px;
+  display: block;
+  padding: 0px 20px;
+  transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+}
+
+/* Styling for the selected anchor tag in the animated menu */
+#navbar-animmenu>ul>li.selected>a{
+	color: #3F7CAC;
+	background-color: transparent;
+	transition: all 0.7s;
+}
+
+/* Styling for the arrow icon after anchor tags */
+#navbar-animmenu a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	font-size: 14px;
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+
+/* Styling for the arrow icon when the anchor tag is selected */
+#navbar-animmenu .selected>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+
+/* Styling for the horizontal selector */
+.hori-selector{
+	display:inline-block;
+	position:absolute;
+	height: 100%;
+	top: 10px;
+	left: 0px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background-color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+/* Styling for the left and right parts of the horizontal selector */
+.hori-selector .right,
+.hori-selector .left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	bottom: 10px;
+}
+
+/* Styling for the right part of the horizontal selector */
+.hori-selector .right{
+	right: -25px;
+}
+
+/* Styling for the left part of the horizontal selector */
+.hori-selector .left{
+	left: -25px;
+}
+
+/* Styling for the circular elements before the left and right parts of the horizontal selector */
+.hori-selector .right:before,
+.hori-selector .left:before{
+	content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #3F7CAC;
+}
+
+/* Styling for the circular element before the right part of the horizontal selector */
+.hori-selector .right:before{
+	bottom: 0;
+  right: -25px;
+}
+
+/* Styling for the circular element before the left part of the horizontal selector */
+.hori-selector .left:before{
+	bottom: 0;
+  left: -25px;
+}

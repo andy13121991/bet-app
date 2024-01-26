@@ -1,0 +1,92 @@
+/* Styling for the image wrapper */
+.img-wrapper-dialog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the team logo */
+.team-logo-dialog {
+  width: 13%;
+}
+
+/* Styling for the team title */
+.team-title-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the overall match dialog */
+.match-dialog {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 1em 0 1em 0;
+}
+
+/* Styling for the wrapper of each team in the match */
+.match-wrapper-dialog {
+  width: 40%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+  justify-content: center;
+}
+
+/* Styling for the home team section */
+.home-team-dialog {
+  width: 100%;
+  grid-area: main;
+  justify-self: center;
+}
+
+/* Styling for the away team section */
+.away-team-dialog {
+  width: 100%;
+  grid-area: sidebar;
+  justify-self: center;
+}
+
+/* Styling for the date and time wrapper */
+.date-time-wrapper-dialog {
+  width: 100%;
+}
+
+/* Styling for the date and time paragraph */
+.date-time-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the overall match information wrapper */
+.info-wrapper-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styling for the "VS" label */
+.vs-dialog {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query for responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+  .match-dialog {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .match-wrapper-dialog,
+  .info-wrapper-dialog {
+    margin: 1em 0.5em;
+    width: 97%;
+  }
+}

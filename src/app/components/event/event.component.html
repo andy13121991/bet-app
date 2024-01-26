@@ -1,0 +1,71 @@
+<div id="id">
+
+  <!-- Display a list of dates -->
+  <ul>
+    <li *ngFor="let date of dates" id="date-holder" class="dates">{{ date.date | date: 'dd.MM.yyyy' }}</li>
+  </ul>
+
+  <!-- Display match details -->
+  <li *ngFor="let match of matches" [id]="match.id"
+  class="match" class="{{ match.status }}"
+  title="{{ match.date | date: 'dd.MM.yyyy' }}"
+  (click)="openDialog()">
+
+  <!-- Home team details -->
+    <div class="match-wrapper home-wrapper">
+      <div class="home-team">
+        <h1 class="team-title">{{ match.teams.home.name }}</h1>
+        <div class="img-wrapper">
+          <img class="team-logo" [src]="match.teams.home.logo" width="100%">
+        </div>
+      </div>
+    </div>
+
+    <!-- Common information section -->
+    <div class="info-wrapper">
+      <h2 class="vs">VS</h2>
+      <div class="date-time-wrapper">
+
+        <!-- Display match date and time -->
+        <p class="date-time">{{ match.date | date: 'dd.MM.yyyy' }} - {{ match.time }}</p>
+      </div>
+    </div>
+
+    <!-- Away team details -->
+    <div class="match-wrapper away-wrapper">
+      <div class="away-team">
+        <h1 class="team-title">{{ match.teams.away.name }}</h1>
+        <div class="img-wrapper">
+          <img class="team-logo" [src]="match.teams.away.logo" width="100%">
+        </div>
+    </div>
+    </div>
+
+    <!-- Set scores data for reading in another component -->
+    <div id="scores-data">
+
+      <!-- Home team scores -->
+      <div class="home-quarter1" id="{{ match.scores.home.quarter_1 }}"></div>
+      <div class="home-quarter2" id="{{ match.scores.home.quarter_2 }}"></div>
+      <div class="home-quarter3" id="{{ match.scores.home.quarter_3 }}"></div>
+      <div class="home-quarter4" id="{{ match.scores.home.quarter_4 }}"></div>
+      <div class="home-totaler" id="{{ match.scores.home.total }}"></div>
+
+      <!-- Away team scores -->
+      <div class="away-quarter1" id="{{ match.scores.away.quarter_1 }}"></div>
+      <div class="away-quarter2" id="{{ match.scores.away.quarter_2 }}"></div>
+      <div class="away-quarter3" id="{{ match.scores.away.quarter_3 }}"></div>
+      <div class="away-quarter4" id="{{ match.scores.away.quarter_4 }}"></div>
+      <div class="away-totaler" id="{{ match.scores.away.total }}"></div>
+
+      <!-- Additional data -->
+      <div class="data-league-title" id="{{ match.league.title }}"></div>
+      <div class="data-league-logo" id="{{ match.league.logo }}"></div>
+      <div class="data-country-name" id="{{ match.country.name }}"></div>
+      <div class="data-country-flag" id="{{ match.country.flag }}"></div>
+    </div>
+  </li>
+</div>
+
+<!-- Placeholder for Angular Material dialog actions -->
+<mat-dialog-actions></mat-dialog-actions>

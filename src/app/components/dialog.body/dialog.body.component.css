@@ -1,0 +1,126 @@
+/* Styles for the done-dialog class */
+.done-dialog {
+  background-color: #FF4433 !important;
+}
+
+/* Styles for the detail-bar class */
+.detail-bar {
+  width: 100%;
+  background-color: #3F7CAC;
+}
+
+/* Styles for the detail-wrapper class */
+.detail-wrapper {
+  padding: 0 1em 0 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Styles for the date-time-current class */
+.date-time-current {
+  font-style: italic;
+  padding-top: 1em;
+}
+
+/* Styles for the match-league-wrapper class */
+.match-league-wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the league-wrapper class */
+.league-wrapper {
+  margin: 0.5em;
+  padding: 0.3em;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for the league-title-wrapper class */
+.league-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for the country-wrapper class */
+.country-wrapper {
+  margin: 0.5em;
+  padding: 0.3em;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for the country-title-wrapper class */
+.country-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for the league-title class */
+.league-title {
+  margin: 0;
+  padding-right: 0.5em;
+}
+
+/* Styles for the country-title class */
+.country-title {
+  margin: 0;
+  padding-right: 0.5em;
+}
+
+/* Styles for the league-img-wrapper class */
+.league-img-wrapper {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for the country-img-wrapper class */
+.country-img-wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .detail-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .date-time-current {
+    text-align: center;
+  }
+
+  .match-league-wrapper,
+  .league-wrapper,
+  .country-wrapper {
+    width: 100%;
+  }
+
+  .league-wrapper,
+  .country-wrapper {
+    justify-content: center;
+  }
+
+  .country-flag {
+    width: 60%;
+  }
+
+  .league-logo {
+    width: 40%;
+  }
+}
+
+
+
+

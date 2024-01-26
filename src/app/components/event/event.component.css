@@ -1,0 +1,138 @@
+/* Styles for image wrapper */
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for team logo */
+.team-logo {
+  width: 13%;
+}
+
+/* Styles for team title */
+.team-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for match container */
+.match {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #cecece;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: 1em;
+  padding: 1em;
+}
+
+/* Hover effect for match container */
+.match:hover {
+  background: linear-gradient(180deg, #f857a8, #ff5858);
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transition: .25s ease;
+  -webkit-transition: .25s ease;
+  -moz-transition: .25s ease;
+  -ms-transition: .25s ease;
+  -o-transition: .25s ease;
+}
+
+/* Styles for match wrapper */
+.match-wrapper {
+  width: 40%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+  justify-content: center;
+}
+
+/* Styles for home team */
+.home-team {
+  width: 100%;
+  grid-area: main;
+  justify-self: center;
+}
+
+/* Styles for away team */
+.away-team {
+  width: 100%;
+  grid-area: sidebar;
+  justify-self: center;
+}
+
+/* Styles for date-time wrapper */
+.date-time-wrapper {
+  width: 100%;
+}
+
+/* Styles for date-time display */
+.date-time {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for info wrapper */
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for "VS" section */
+.vs {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for game-finished status */
+.game-finished {
+  background-color: #ffa200;
+}
+
+/* Styles for date holder */
+#date-holder {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Styles for done status */
+.done {
+  background-color: #FF4433 !important;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 650px) {
+
+  .match {
+    flex-direction: column;
+    padding: 1em 0em;
+  }
+
+  .match-wrapper,
+  .info-wrapper {
+    margin: 0.5em;
+    width: 96%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .team-logo {
+    width: 20%;
+  }
+}
+
